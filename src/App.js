@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ButtonComponent from './components/ButtonComponent';
 import ImageComponent from './components/ImageComponent';
+import Counter from './components/Count';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Counter/>
       </header>
       <main>
         <div>
@@ -28,6 +30,7 @@ function App() {
         </div>
         <ImageComponent src={logo}
         alt=''/>
+        
       </main>
     </div>
   );
